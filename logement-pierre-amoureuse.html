@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>La Pierre Amoureuse — Maison Oréa</title>
+<link rel="icon" type="image/png" href="assets/img/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="nav-row">
+    <a href="index.html" class="brand"><img src="assets/img/logo.png" alt="Maison Oréa"><span><span class="brand-name">MAISON ORÉA</span><span class="brand-tag">conciergerie</span></span></a>
+    <nav class="main-nav"><a href="logements.html" class="active">Nos logements</a><a href="a-propos.html">Notre histoire</a><a href="contact.html">Contact</a></nav>
+    <div class="header-actions"><span class="lang-toggle"><span class="active">FR</span> · EN</span><a href="contact.html" class="btn-header">Réserver</a><button class="menu-toggle"><span></span><span></span><span></span></button></div>
+  </div>
+</header>
+<nav class="mobile-nav"><a href="index.html">Accueil</a><a href="logements.html">Nos logements</a><a href="a-propos.html">Notre histoire</a><a href="contact.html">Contact</a><a href="contact.html" class="mobile-cta">Nous contacter</a></nav>
+
+<section class="page-hero">
+  <div class="page-hero-content">
+    <div class="breadcrumb"><a href="index.html">Accueil</a><span class="sep">—</span><a href="logements.html">Nos logements</a><span class="sep">—</span><span>La Pierre Amoureuse</span></div>
+    <div style="display: flex; justify-content: space-between; align-items: end; gap: 2rem; flex-wrap: wrap;">
+      <div>
+        <span class="eyebrow">Saint-Apollinaire · Hautes-Alpes</span>
+        <h1 style="font-size: clamp(2.5rem, 6vw, 5rem); margin-top: 0.75rem;">La Pierre <em>Amoureuse.</em></h1>
+        <p class="muted" style="margin-top: 0.5rem; max-width: 60ch;">Lorem ipsum dolor sit amet. Villa de prestige, lac de Serre-Ponçon, 14 voyageurs. Cinéma, piscine chauffée, sauna, hammam, salle de sport.</p>
+      </div>
+      <a href="contact.html" class="btn btn-primary">Demander à réserver</a>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top: 3rem;">
+  <div class="container">
+    <div class="lodge-gallery fade-up">
+      <div><img src="assets/img/josiane-hero.jpg" alt="Vue principale" loading="lazy"></div>
+      <div><img src="assets/img/josiane-1.jpg" alt="Salon" loading="lazy"></div>
+      <div><img src="assets/img/josiane-2.jpg" alt="Détail" loading="lazy"></div>
+      <div><img src="assets/img/josiane-5.jpg" alt="Espace" loading="lazy"></div>
+      <div><img src="assets/img/josiane-6.jpg" alt="Suite" loading="lazy"></div>
+    </div>
+
+    <div style="display: grid; grid-template-columns: 1.4fr 1fr; gap: 5rem; align-items: start;">
+      <div class="fade-up">
+        <span class="eyebrow">La maison</span>
+        <span class="divider-wave"></span>
+        <h2 style="margin-top: 1rem;">Une parenthèse de pierre, suspendue au-dessus du lac.</h2>
+        <p class="lead" style="margin-block: 1.5rem;">Lorem ipsum dolor sit amet consectetur adipiscing elit. Architecture contemporaine béton et verre, vue panoramique sur le Grand Morgon, ambiance feutrée pour célébrer.</p>
+        <p style="margin-bottom: 1.25rem;">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Idéalement située à Saint-Apollinaire, à quelques minutes de Gap, à l'entrée du Parc National des Écrins.</p>
+        <p class="quote-text" style="font-size: 1.5rem; text-align: left; margin-block: 2rem;">Certains lieux ne se visitent pas. Ils se découvrent.</p>
+
+        <h3 style="margin-top: 4rem; margin-bottom: 2rem;">Équipements</h3>
+        <div class="amenity-grid">
+          <div class="amenity"><span class="ico">◇</span> Salle de cinéma</div>
+          <div class="amenity"><span class="ico">◇</span> Piscine chauffée à contre-courant</div>
+          <div class="amenity"><span class="ico">◇</span> Sauna</div>
+          <div class="amenity"><span class="ico">◇</span> Hammam</div>
+          <div class="amenity"><span class="ico">◇</span> Jacuzzi</div>
+          <div class="amenity"><span class="ico">◇</span> Salle de sport équipée</div>
+          <div class="amenity"><span class="ico">◇</span> Salle de jeux</div>
+          <div class="amenity"><span class="ico">◇</span> Cuisine équipée</div>
+          <div class="amenity"><span class="ico">◇</span> Wifi haut débit</div>
+          <div class="amenity"><span class="ico">◇</span> Parking</div>
+        </div>
+      </div>
+
+      <div style="position: sticky; top: 6rem;">
+        <div class="form fade-up">
+          <h3>Demander une disponibilité</h3>
+          <p class="muted" style="margin-bottom: 2rem; font-size: 0.9rem;">Tarif communiqué selon saison et durée. Réponse sous 12h.</p>
+          <div class="field-row">
+            <div class="field"><label>Arrivée</label><input type="date"></div>
+            <div class="field"><label>Départ</label><input type="date"></div>
+          </div>
+          <div class="field"><label>Voyageurs</label><select><option>2</option><option>4</option><option>8</option><option selected>12</option><option>14</option></select></div>
+          <a href="contact.html" class="btn btn-primary" style="width: 100%; justify-content: center;">Demander un devis</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="green fade-up">
+  <div style="max-width: 1280px; margin: 0 auto; display: grid; grid-template-columns: 1.2fr 1fr; gap: 4rem; align-items: center;">
+    <div>
+      <span class="eyebrow light">Service signature</span>
+      <h2 style="margin-top: 1rem; color: var(--lin-clair);">Le séjour ne s'arrête pas à la porte.</h2>
+      <p class="lead" style="margin-top: 1rem; color: rgba(232,220,200,0.85);">Chef privé, dégustation vigneron, massage en chambre, transferts — toute demande trouve sa réponse.</p>
+    </div>
+    <div class="actions" style="display: flex; gap: 1rem; justify-content: flex-end; flex-wrap: wrap;"><a href="contact.html" class="btn btn-ghost light">Demander des services</a></div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand"><span class="brand-name">MAISON ORÉA</span><span class="brand-tag">conciergerie</span><p>Conciergerie premium dans la région de Gap.</p></div>
+      <div class="footer-col"><h5>Maison Oréa</h5><ul><li><a href="a-propos.html">Notre histoire</a></li><li><a href="logements.html">Nos logements</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+      <div class="footer-col"><h5>Voyageurs</h5><ul><li><a href="logements.html">Nos propriétés</a></li><li><a href="contact.html">Réserver</a></li></ul></div>
+      <div class="footer-col"><h5>Propriétaires</h5><ul><li><a href="contact.html">Confier mon bien</a></li></ul></div>
+    </div>
+    <div class="footer-bottom"><div>© 2026 Maison Oréa · contact@oreaconciergerie.fr</div><div class="social"><a href="#">IG</a><a href="#">FB</a></div></div>
+  </div>
+</footer>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
